@@ -1,0 +1,33 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Product Guide"
+theme = "hugo-coder"
+
+[params]
+  author = "ORA PRO"
+  description = "Official guide and documentation"
+  avatarURL = "images/logo1.JPG"
+  avatarSize = "100px"
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Guide"
+  url = "/guide/"
+  weight = 2
+
+[[menu.main]]
+  name = "Videos"
+  url = "/videos/"
+  weight = 3
+
+[[menu.main]]
+  name = "Specs"
+  url = "/specs/"
+  weight = 4
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
