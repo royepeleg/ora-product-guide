@@ -1,14 +1,8 @@
 +++
-date = '2025-12-07T09:15:21+02:00'
-draft = true
 title = 'Introduction'
+date = '2025-12-07T09:15:21+02:00'
+draft = false
 +++
-
----
-
-title: "Introduction" date: 2025-12-07
-
----
 
 Welcome to the **Product Guide**.
 

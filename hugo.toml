@@ -4,7 +4,7 @@ title = "Product Guide"
 theme = "hugo-coder"
 
 [params]
-  author = "ORA PRO"
+  author = "BY ORA PRO"
   description = "Official guide and documentation"
   avatarURL = "images/logo1.jpg"
   avatarSize = "100px"
