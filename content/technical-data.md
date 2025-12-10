@@ -1,5 +1,5 @@
 ---
-title: "Specifications"
+title: "Technical data"
 ---
 
 # Product Specifications

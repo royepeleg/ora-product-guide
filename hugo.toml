@@ -1,32 +1,35 @@
 baseURL = "https://ora-guide.pages.dev/"
-languageCode = "en-us"
-title = "Product Guide"
 theme = "hugo-coder"
+title = "Product Guide"
 
 [params]
-  author = "BY ORA PRO"
-  description = "Official guide and documentation"
   avatarURL = "images/logo1.jpg"
-  avatarSize = "100px"
+  avatarSize = "40px"
+  images = ""
+  email = "support@yourcompany.com"
+
+
+
+
 [[menu.main]]
-  name = "Home"
-  url = "/"
+  name = "User Guide"
+  url = "/user-guide-en/"
   weight = 1
-
 [[menu.main]]
-  name = "Guide"
-  url = "/guide/"
+  name = "Installation"
+  url = "/Installation-en/"
   weight = 2
-
 [[menu.main]]
   name = "Videos"
   url = "/videos/"
   weight = 3
-
 [[menu.main]]
   name = "Specs"
   url = "/specs/"
   weight = 4
+
+
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]

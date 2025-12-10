@@ -1,7 +1,14 @@
----
-title: "Videos"
----
++++
+title = ""
++++
 
-# Product Videos
+# Product Guide
 
-Here you can find video instructions and tutorials.
+Welcome to the product documentation.
+
+![Main Image](/images/landing-photo.jpg)
+
+Use the menu above, or choose:
+
+- [User Guide](/user-guide-en/)
+- [מדריך למשתמש](/user-guide-he/)
