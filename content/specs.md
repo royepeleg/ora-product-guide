@@ -1,5 +1,5 @@
 +++
-title = "Technical Specifications"
+title = "Specs"
 +++
 
 <div dir="ltr" style="font-size: 1.2rem; line-height: 1.3;">
@@ -33,7 +33,7 @@ title = "Technical Specifications"
     <tr style="border-bottom: 1px solid #eee;">
       <td style="padding: 8px;"><strong>Lighting Intensity</strong></td>
       <td style="padding: 8px;">500 lm</td>
-      <td style="padding: 8px;">500 lm</td>
+      <td style="padding: 8px;">200 lm</td>
     </tr>
     <tr style="border-bottom: 1px solid #eee;">
       <td style="padding: 8px;"><strong>Working Power</strong></td>
@@ -49,6 +49,11 @@ title = "Technical Specifications"
       <td style="padding: 8px;"><strong>Charging Method</strong></td>
       <td style="padding: 8px;">No charging required</td>
       <td style="padding: 8px;">Each flashlight must be charged separately</td>
+    </tr>
+    <tr style="border-bottom: 1px solid #eee;">
+      <td style="padding: 8px;"><strong>Lighting Method</strong></td>
+      <td style="padding: 8px;">remote operation</td>
+      <td style="padding: 8px;">manual operation</td>
     </tr>
   </tbody>
 </table>

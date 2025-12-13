@@ -1,5 +1,5 @@
 +++
-title = ""
+title = "Operating Guide"
 +++
 
 <!-- prettier-ignore-start -->
@@ -16,6 +16,17 @@ title = ""
 </div>
 <p style="font-size: 2rem; font-weight: 700; margin-top: 30px;">Operating Guide</p>
 
+<a href="/user-guide-he/" style="
+  display:inline-block;
+  padding:8px 16px;
+  border-radius:6px;
+  background:#007bff;
+  color:white;
+  text-decoration:none;
+  font-weight:600;
+">
+עבור לעברית
+</a>
 <hr/>
 
 <p style="font-weight:600; font-size:1.5rem;">Step 1 – Pre-Flight Checks</p>
@@ -97,7 +108,12 @@ title = ""
 
 <p style="font-weight:600; font-size:1.5rem;">Important Note</p>
 
-<p>Make sure the drone is set to record to the installed memory card:</p>
+<p>The drone should show "SD Slow", this is the desired state:</p>
+ <img
+      src="/images/cdslowapp.png"
+      alt="Product Image"
+      style="max-width:70%; height: auto; border-radius: 12px; box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15)" />
+<p>If it does not appear, set up a photo on the memory card as shown in the image below:</p>
 
  <img
       src="/images/sdmode.jpg"
@@ -106,17 +122,6 @@ title = ""
 
 <br/>
 
-<a href="/user-guide-he/" style="
-  display:inline-block;
-  padding:8px 16px;
-  border-radius:6px;
-  background:#007bff;
-  color:white;
-  text-decoration:none;
-  font-weight:600;
-">
-עבור לעברית
-</a>
 
 </div>
 

@@ -1,5 +1,5 @@
 +++
-title = ""
+title = "מדריך הפעלה"
 +++
 
 <!-- prettier-ignore-start -->
@@ -15,6 +15,17 @@ title = ""
 </div>
 <p style="font-size: 2rem; font-weight: 700; margin-top: 30px;">מדריך הפעלה</p>
 
+<a href="/user-guide-en/" style="
+  display:inline-block;
+  padding:8px 16px;
+  border-radius:6px;
+  background:#007bff;
+  color:white;
+  text-decoration:none;
+  font-weight:600;
+">
+Switch to English
+</a>
 <hr/>
 
 <p style="font-weight:600; font-size:1.5rem;">שלב 1 – בדיקות מקדימות</p>
@@ -95,7 +106,13 @@ title = ""
 
 <p style="font-weight:600; font-size:1.5rem;">הערה חשובה</p>
 
-<p>וודא שהרחפן מוגדר על מצב צילום לכרטיס הנמצא ברחפן:</p>
+<p>הרחפן אמור להראות  "SD slow" זה המצב הרצוי: </p>
+ <img
+      src="/images/cdslowapp.png"
+      alt="Product Image"
+      style="max-width:70%; height: auto; border-radius: 12px; box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15)" />
+
+<p>אם זה לא מופיע , בצע הגדרת צילום על כרטיס זכרון כמו בתמונה למטה: </p>
  <img
       src="/images/sdmode.jpg"
       alt="Product Image"
@@ -103,17 +120,6 @@ title = ""
 
 <br/>
 
-<a href="/user-guide-en/" style="
-  display:inline-block;
-  padding:8px 16px;
-  border-radius:6px;
-  background:#007bff;
-  color:white;
-  text-decoration:none;
-  font-weight:600;
-">
-Switch to English
-</a>
 
 </div>
 

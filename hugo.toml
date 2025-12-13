@@ -20,12 +20,12 @@ title = "Product Guide"
   url = "/Installation-en/"
   weight = 2
 [[menu.main]]
-  name = "Videos"
-  url = "/videos/"
-  weight = 3
-[[menu.main]]
   name = "Specs"
   url = "/specs/"
+  weight = 3
+[[menu.main]]
+  name = "Contact us"
+  url = "/Contact/"
   weight = 4
 
 

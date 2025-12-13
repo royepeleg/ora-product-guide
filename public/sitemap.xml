@@ -4,21 +4,23 @@
   <url>
     <loc>http://localhost:1313/</loc>
   </url><url>
-    <loc>http://localhost:1313/user-guide-en/</loc>
-  </url><url>
-    <loc>http://localhost:1313/user-guide-he/</loc>
-  </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
+    <loc>http://localhost:1313/contact/</loc>
+  </url><url>
     <loc>http://localhost:1313/installation-en/</loc>
+  </url><url>
+    <loc>http://localhost:1313/user-guide-en/</loc>
+  </url><url>
+    <loc>http://localhost:1313/specs/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url><url>
     <loc>http://localhost:1313/technical-data/</loc>
   </url><url>
-    <loc>http://localhost:1313/specs/</loc>
-  </url><url>
     <loc>http://localhost:1313/videos/</loc>
+  </url><url>
+    <loc>http://localhost:1313/user-guide-he/</loc>
   </url><url>
     <loc>http://localhost:1313/installation-he/</loc>
   </url>
