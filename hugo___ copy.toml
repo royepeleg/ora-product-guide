@@ -31,3 +31,10 @@ theme = "hugo-coder"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+
+
+      [[menu.main]]
+  name = "Videos"
+  url = "/videos/"
+  weight = 3
