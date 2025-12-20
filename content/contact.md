@@ -12,7 +12,7 @@ title = "Contact Us"
 For questions, program support and reservations - please contact us at the email address attached here.
 </p>
 <p>
-לשאלות ,תמיכה תכנית והזמנות - אנא צרו קשר בכתובת המייל המצורפת פה 
+לשאלות ,תמיכה טכנית והזמנות - אנא צרו קשר בכתובת המייל המצורפת פה 
 </p>
 
 <!-- <hr/> -->

@@ -9,7 +9,10 @@ title = "Product Guide"
   email = "contact.ora001@gmail.com"
 
 
-
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
 
 [[menu.main]]
   name = "User Guide"

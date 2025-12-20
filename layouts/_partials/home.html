@@ -1,47 +1,246 @@
-<section class="container centered" style="margin: auto">
-  <!-- <div class="about"> -->
-  {{ define "main" }} {{ end }}
-  <div
-    style="
+<section class="container centered" style="margin: auto; padding: 0">
+  {{ define "main" }}{{ end }}
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    /* טעינת הפונטים המתאימים */
+    @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@900&family=Assistant:wght@400;700&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=BBH+Bartle&display=swap");
+    :root {
+      --accent: hwb(76 18% 0%);
+      --dark: #000000;
+      --bg: #e5e5e5;
+    }
+
+    body {
+      background: var(--bg);
+      margin: 0;
+      font-family: "Assistant", sans-serif;
+    }
+
+    /* HERO SECTION */
+    .hero {
+      background-image: url("/images/ORA_ONE_CLICK2.png");
+      height: 60em;
+      background-size: cover;
+      background-position: bottom;
+      border-radius: 50px;
+
+      padding: 80px 40px 0px;
+      text-align: center;
+      overflow: hidden;
+      box-shadow: 0px 17px 20px 13px rgb(65 63 63 / 50%);
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .landing-page {
+      width: 100%;
+      display: block;
+      min-width: 400px;
+    }
+    /* כותרת מותאמת אישית לרוחב מלא */
+    .hero-header {
+      max-width: 1000px;
+      margin: 0 auto 10px;
       display: flex;
       flex-direction: column;
-      align-items: center;
+      gap: 0;
+    }
+    .bbh-bartle-regular {
+      font-family: "BBH Bartle", sans-serif;
+      font-weight: 200;
+      font-style: normal;
+    }
+    .hero-title-line {
+      font-family: "BBH Bartle", sans-serif;
+      font-weight: 200;
+      font-style: normal;
+      /* font-family: "Archivo Black", sans-serif;
+      font-weight: 900; */
+      color: #fff;
+      /* text-transform: uppercase; */
+      line-height: 1em;
+      letter-spacing: 0.09em !important;
+      display: flex;
       justify-content: center;
-      text-align: center;
-      padding-top: 40px;
-      padding-bottom: 5px;
-      max-width: 900px;
-      margin: auto;
-    ">
-    <!-- MAIN IMAGE -->
-    <!-- src="/images/landing-photo.jpg" -->
-    <h1 style="margin-top: 0px; font-size: 2rem; font-weight: 700">Welcome to the ORA Lighting System</h1>
-    <h2 style="margin-top: 0px; font-weight: 700">LM500 - Remote operation - No need to charge</h2>
-    <h2 style="margin-top: 0px; font-weight: 700">LMהפעלה משלט הרחפן - ללא צורך בטעינה - עוצמת תאורה 500</h2>
-    <img
-      src="/images/drone ora1.png"
-      alt="Product Image"
-      style="max-width: 70%; height: auto; border-radius: 12px; box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15)" />
+      /* justify-content: space-between; */
+      width: 100%;
 
-    <!-- SUBTEXT -->
-    <p style="font-size: 1.4rem; opacity: 0.8; margin-top: 10px">
-      Complete operating, installation, and technical documentation
-    </p>
-    <a
-      href="/user-guide-en/"
-      style="
-        display: inline-block;
-        padding: 8px 16px;
-        border-radius: 6px;
-        background: #007bff;
-        color: white;
-        text-decoration: none;
-        font-weight: 600;
-      ">
-      Go to User Guide
-    </a>
-    <!-- CREDIT -->
-    <p style="margin-top: 20px; font-size: 1.3rem; color: #777">Created by <strong>ORA PRO</strong></p>
+      letter-spacing: -0.02em;
+      transform: scaleY(1.1);
+    }
+
+    /* גדלים שונים לכל שורה כדי ליצור יישור מושלם */
+    .line-1 {
+      font-size: 6.5rem;
+      /* font-size: clamp(3rem, 12vw, 6.5rem); */
+      color: var(--accent) !important;
+      white-space: pre;
+    }
+    .line-2 {
+      font-size: 6.5rem;
+      /* font-size: clamp(2.5rem, 10vw, 5.5rem); */
+    }
+
+    .hero-image {
+      max-width: 850px;
+      width: 100%;
+      margin: 20px auto 0;
+      display: block;
+      filter: drop-shadow(0 40px 80px rgba(0, 0, 0, 0.9));
+      transform: translateY(40px);
+    }
+
+    /* FEATURES - האייקונים החדשים */
+    .features-container {
+      max-width: 1100px;
+      margin: 100px auto 50px;
+      padding: 0 20px;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .feature-card {
+      background: #fff;
+      flex: 1;
+      padding: 35px 25px;
+      border-radius: 30px;
+      text-align: center;
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+      transition: all 0.3s ease;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .feature-card:hover {
+      transform: translateY(-10px);
+    }
+
+    .feature-card svg {
+      color: var(--dark);
+      margin-bottom: 20px;
+      width: 40px;
+      height: 40px;
+      stroke-width: 2.5px;
+    }
+
+    .feature-card h3 {
+      font-family: "Archivo Black", sans-serif;
+      font-size: 2rem;
+      margin-bottom: 10px;
+      letter-spacing: -0.5px;
+    }
+
+    .content_main {
+      text-align: center;
+      padding: 60px 20px 100px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .content_main p {
+      font-size: 2rem;
+      font-weight: 800;
+      color: #111;
+    }
+    .hebrew {
+      display: block;
+      margin-top: 15px;
+      font-size: 1.7rem;
+      direction: rtl;
+      font-weight: 700;
+    }
+
+    .cta {
+      display: inline-block;
+      margin-top: 40px;
+      padding: 20px 50px;
+      border-radius: 999px;
+      background: var(--accent);
+      color: #000;
+      font-family: "Archivo Black", sans-serif;
+      text-decoration: none; /* מבטל את הקו התחתי כברירת מחדל */
+      font-size: 2rem;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); /* מעבר חלק וטבעי */
+      cursor: pointer;
+      border: none;
+      box-shadow: 0 4px 15px rgba(200, 255, 47, 0.3);
+    }
+
+    /* מצב ריחוף - Hover */
+    .cta:hover {
+      text-decoration: none; /* מבטיח שלא יופיע קו תחתי בריחוף */
+      transform: translateY(-3px) scale(1.02); /* קפיצה קלה למעלה והגדלה */
+      box-shadow: 0 8px 25px rgba(200, 255, 47, 0.5); /* צל עמוק יותר */
+      filter: brightness(1.1); /* הבהרה קלה של הצבע */
+    }
+
+    /* מצב לחיצה - Active */
+    .cta:active {
+      transform: translateY(1px) scale(0.98); /* לחיצה "פנימה" */
+      box-shadow: 0 2px 10px rgba(200, 255, 47, 0.4); /* הקטנת הצל */
+      transition: all 0.1s; /* תגובה מהירה יותר בלחיצה */
+    }
+
+    /* מובייל */
+    @media (max-width: 768px) {
+      .features-container {
+        flex-direction: column;
+        margin-top: 60px;
+      }
+      .hero {
+        padding: 60px 20px 0;
+      }
+      .hero-title-line {
+        justify-content: center;
+        gap: 10px;
+      } /* במובייל עדיף למרכז */
+      .line-1 {
+        font-size: 3rem;
+      }
+      .line-2 {
+        font-size: 3rem;
+      }
+    }
+  </style>
+
+  <div class="landing-page">
+    <section class="hero">
+      <div class="hero-header">
+        <div class="hero-title-line line-1"><span>One click</span></div>
+        <div class="hero-title-line line-2"><span>LIGHT</span></div>
+      </div>
+      <!-- <img src="/images/ORA ONE CLICK.png" alt="ORA LM500" class="hero-image" /> -->
+    </section>
+
+    <section class="features-container">
+      <div class="feature-card">
+        <i data-lucide="zap"></i>
+        <h3>PLUG & PLAY</h3>
+        <p>Direct drone power, no charging.</p>
+      </div>
+      <div class="feature-card">
+        <i data-lucide="sun"></i>
+        <h3>500 LUMENS</h3>
+        <p>Super bright night vision.</p>
+      </div>
+      <div class="feature-card">
+        <i data-lucide="radio"></i>
+        <h3>REMOTE OP.</h3>
+        <p>Control from your DJI remote controler.</p>
+      </div>
+    </section>
+
+    <section class="content_main">
+      <!-- <p>
+        LM500 – Remote operation – No need to charge
+        <span class="hebrew">הפעלה משלט הרחפן · ללא צורך בטעינה · 500LM</span>
+      </p> -->
+      <a href="/user-guide-en/" class="cta">GO TO USER GUIDE</a>
+    </section>
   </div>
-  <!-- </div> -->
+
+  <script>
+    lucide.createIcons();
+  </script>
 </section>

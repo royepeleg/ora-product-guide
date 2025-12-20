@@ -1,7 +1,71 @@
-<nav class="navigation">
-  <section class="container">
+<nav class="navigation dark-header">
+  <section class="container custom_header">
+    <style>
+  .custom_header {
+    margin: 0rem auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center; /* זה שומר על מרכוז אנכי רק כשהתפריט סגור */
+    position: relative; /* מאפשר לנו לשלוט במיקום הרשימה */
+  }
+  #menu-toggle{
+    position: absolute !important;
+  }
+  .navigation-title {
+    flex-shrink: 0; /* זה מונע מהלוגו להצטמצם */
+}
 
-    
+.menu-button {
+    flex-shrink: 0; /* מונע גם מכפתור ההמבורגר להצטמצם */
+}
+.menu-button i {
+    color: #000 !important; /* שנה ל- #fff אם הרקע שלך שחור */
+    transition: color 0.3s ease;
+}
+  /* פתרון הבעיה במובייל */
+  @media (max-width: 768px) {
+    .custom_header {
+      /* משאיר את הלוגו וההמבורגר למעלה גם כשהתפריט נפתח */
+      align-items: flex-start; 
+      padding-top: 10px; /* התאמה קלה לגובה */
+    }
+
+    /* מוודא שהרשימה שנפתחת תתפוס את כל הרוחב ותהיה מתחת ללוגו */
+    .navigation-list {
+      position: absolute;
+      top: 100%; /* מתחיל בדיוק מתחת ל-Header */
+      left: 0;
+      width: 100%;
+      background: inherit; /* שומר על צבע ה-Header */
+      display: none; /* ברירת מחדל סגור */
+      flex-direction: column;
+      z-index: 1;
+    }
+
+    /* כשהצ'קבוקס לחוץ - הרשימה מופיעה */
+    #menu-toggle:checked ~ .navigation-list {
+      display: flex !important;
+    }
+
+    /* שומר על הכפתור והלוגו תמיד באותו גובה */
+    .menu-button, .navigation-title {
+      height: 60px; /* הגובה של הלוגו שלך */
+      display: flex;
+      align-items: center;
+      z-index: 2;
+    }
+  }
+    </style>
+    <!-- <style>
+      .custom_header{
+        margin: 0rem auto;
+        display: flex;
+        flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+      }
+    </style> -->
     {{ if or .Site.Menus.main hugo.IsMultilingual }}
     <input type="checkbox" id="menu-toggle" />
     <label class="menu-button float-right" for="menu-toggle">
@@ -48,19 +112,10 @@
             <a class="navigation-title" href="{{ absLangURL "" }}" style="display:flex; align-items:center; gap:12px;">
         
               <!-- MAIN LOGO -->
-              <img src="/images/logo2.jpg"
+              <img src="/images/logo3.png"
                    alt="Logo"
-                   style="height:70px; width:auto; border-radius:4px;">
-
-                   
-        
-              <!-- EXTRA IMAGE NEXT TO LOGO -->
-              <!-- <img src="/images/landing-photo.jpg"
-                   alt="Product Image"
-                   style="height:40px; width:auto; border-radius:4px;"> -->
-        
+                   style="z-index: 2; height:60px; width:auto; border-radius:4px;">
             </a>
             {{ end }}
           </section>
-          <!-- <p style="display: flex; justify-content: center; margin: 0px;">לפרטים והזמנות :contact.ora001@gmail.com </p> -->
         </nav>

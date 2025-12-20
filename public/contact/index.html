@@ -19,7 +19,7 @@
 For questions, program support and reservations - please contact us at the email address attached here.
 
 
-לשאלות ,תמיכה תכנית והזמנות - אנא צרו קשר בכתובת המייל המצורפת פה 
+לשאלות ,תמיכה טכנית והזמנות - אנא צרו קשר בכתובת המייל המצורפת פה 
 
 
 
@@ -46,13 +46,13 @@ ora-guide.pages.dev
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Contact Us">
-  <meta name="twitter:description" content="For questions, program support and reservations - please contact us at the email address attached here.לשאלות ,תמיכה תכנית והזמנות - אנא צרו קשר בכתובת המייל המצורפת פה Contact Details
+  <meta name="twitter:description" content="For questions, program support and reservations - please contact us at the email address attached here.לשאלות ,תמיכה טכנית והזמנות - אנא צרו קשר בכתובת המייל המצורפת פה Contact Details
 📧 Email: contact.ora001@gmail.com🌐 Website: ora-guide.pages.dev">
 
 <meta property="og:url" content="http://localhost:1313/contact/">
   <meta property="og:site_name" content="Product Guide">
   <meta property="og:title" content="Contact Us">
-  <meta property="og:description" content="For questions, program support and reservations - please contact us at the email address attached here.לשאלות ,תמיכה תכנית והזמנות - אנא צרו קשר בכתובת המייל המצורפת פה Contact Details
+  <meta property="og:description" content="For questions, program support and reservations - please contact us at the email address attached here.לשאלות ,תמיכה טכנית והזמנות - אנא צרו קשר בכתובת המייל המצורפת פה Contact Details
 📧 Email: contact.ora001@gmail.com🌐 Website: ora-guide.pages.dev">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
@@ -117,9 +117,65 @@ ora-guide.pages.dev
 
 
   <main class="wrapper">
-    <nav class="navigation">
-  <section class="container">
+    <nav class="navigation dark-header">
+  <section class="container custom_header">
+    <style>
+  .custom_header {
+    margin: 0rem auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;  
+    position: relative;  
+  }
+  #menu-toggle{
+    position: absolute !important;
+  }
+  .navigation-title {
+    flex-shrink: 0;  
+}
 
+.menu-button {
+    flex-shrink: 0;  
+}
+.menu-button i {
+    color: #000 !important;  
+    transition: color 0.3s ease;
+}
+   
+  @media (max-width: 768px) {
+    .custom_header {
+       
+      align-items: flex-start; 
+      padding-top: 10px;  
+    }
+
+     
+    .navigation-list {
+      position: absolute;
+      top: 100%;  
+      left: 0;
+      width: 100%;
+      background: inherit;  
+      display: none;  
+      flex-direction: column;
+      z-index: 1;
+    }
+
+     
+    #menu-toggle:checked ~ .navigation-list {
+      display: flex !important;
+    }
+
+     
+    .menu-button, .navigation-title {
+      height: 60px;  
+      display: flex;
+      align-items: center;
+      z-index: 2;
+    }
+  }
+    </style>
     
     
     <input type="checkbox" id="menu-toggle" />
@@ -131,6 +187,13 @@ ora-guide.pages.dev
         
         
         
+        <li class="navigation-item">
+          <a class="navigation-link "
+          href="/">
+                 Home
+                </a>
+              </li>
+          
         <li class="navigation-item">
           <a class="navigation-link "
           href="/user-guide-en/">
@@ -170,19 +233,12 @@ ora-guide.pages.dev
             <a class="navigation-title" href="http://localhost:1313/" style="display:flex; align-items:center; gap:12px;">
         
               
-              <img src="/images/logo2.jpg"
+              <img src="/images/logo3.png"
                    alt="Logo"
-                   style="height:70px; width:auto; border-radius:4px;">
-
-                   
-        
-              
-              
-        
+                   style="z-index: 2; height:60px; width:auto; border-radius:4px;">
             </a>
             
           </section>
-          
         </nav>
 
 
@@ -205,7 +261,7 @@ ora-guide.pages.dev
 For questions, program support and reservations - please contact us at the email address attached here.
 </p>
 <p>
-לשאלות ,תמיכה תכנית והזמנות - אנא צרו קשר בכתובת המייל המצורפת פה 
+לשאלות ,תמיכה טכנית והזמנות - אנא צרו קשר בכתובת המייל המצורפת פה 
 </p>
 <!-- <hr/> -->
 <div style="
