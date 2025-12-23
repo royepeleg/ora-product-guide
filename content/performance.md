@@ -163,7 +163,7 @@ title = ""
     /* --- SECTION 4: VIDEO COMPARISON --- */
     .video-comparison {
       max-width: 1200px;
-      margin: 0 auto 80px;
+      margin:80px auto 0;
     }
     .video-grid {
       display: grid;
@@ -266,9 +266,16 @@ title = ""
     </div>
 
   </div>
+        <div class="video-wrapper">
+           <video id="mainVideo" controls>
+      <source id="videoSource" src="/videos/prefcompre.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+        </div>
 
   <div class="stats-section">
     <h2 class="section-title">Flight Time Impact</h2>
+     <!-- <div class="video-label" style="color: var(--accent);">Flight Time & Battery Efficiency Comparison</div> -->
     <div class="chart-container">
       <div class="bar-group">
         <div class="bar-label">
@@ -295,7 +302,7 @@ title = ""
         </div>
       </div>
       <p style="margin-top: 20px; font-size: 1.9rem; color: #666;">
-        * Flight times are estimated based on hover conditions with DJI Mavic 3.
+        * Flight times are estimated based on fly time with DJI AVATA 1 90% battary.
       </p>
     </div>
   </div>
@@ -328,24 +335,6 @@ title = ""
 
   </div>
 
-  <div class="video-comparison">
-    <h2 class="section-title">Night Visibility Test</h2>
-    <div class="video-grid">
-      <div>
-        <div class="video-label" style="color: var(--accent);">ORA 1 (500 Lumens)</div>
-        <div class="video-wrapper">
-          <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID_HERE" frameborder="0" allowfullscreen></iframe>
-        </div>
-      </div>
-      <div>
-        <div class="video-label" style="color: #888;">Standard Kit (200 Lumens)</div>
-        <div class="video-wrapper">
-           <iframe src="https://www.youtube.com/embed/COMPETITOR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <div class="feature-list">
     <h3 style="text-align: center; margin-bottom: 30px; font-size: 2.5rem;">Detailed Specifications</h3>
     <div class="feature-item">
@@ -376,6 +365,17 @@ title = ""
         <div class="feature-val-comp">Requires Frequent Charging</div>
       </div>
     </div>
+
+  <div class="video-comparison">
+        <div class="video-label" style="color: #888;">Battery Performance Comparison</div>
+            <div class="video-wrapper">
+           <video id="mainVideo" controls>
+      <source id="videoSource" src="/videos/coppower.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+        </div>
+  </div>
+      <div>
 
   </div>
 

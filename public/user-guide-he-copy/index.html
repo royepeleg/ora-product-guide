@@ -3,7 +3,7 @@
 
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <title>
-  מדריך למשתמש (HE) · Product Guide
+  מדריך הפעלה · Product Guide
 </title>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,50 +13,40 @@
 
 
 <meta name="description" content="
-  מדריך למשתמש (עברית)
+
+
   
     
-    Link to heading
+    Your browser does not support the video tag.
   
 
-זהו המדריך בעברית.
-כאן תוסיף שלבים, תמונות וסרטונים.
+מדריך הפעלה
+
+Switch to English
 
 
-  שלב 1 – פעולה ראשונה
-  
-    
-    Link to heading
-  
-
-טקסט לדוגמה…
-
-
-  מעבר לאנגלית
-  
-    
-    Link to heading
-  
-
- Switch to English ">
+שלב 1 – בדיקות מקדימות
+בדוק חיבור היחידה האחורית לרחפן
+ 
+בדוק חיבור הסוללה ליחידה האחורית">
 <meta name="keywords" content="">
 
 
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="מדריך למשתמש (HE)">
-  <meta name="twitter:description" content="מדריך למשתמש (עברית)Link to headingזהו המדריך בעברית.
-כאן תוסיף שלבים, תמונות וסרטונים.
-שלב 1 – פעולה ראשונהLink to headingטקסט לדוגמה…
-מעבר לאנגליתLink to headingSwitch to English">
+  <meta name="twitter:title" content="מדריך הפעלה">
+  <meta name="twitter:description" content="Your browser does not support the video tag.מדריך הפעלה
+Switch to English שלב 1 – בדיקות מקדימות
+בדוק חיבור היחידה האחורית לרחפן
+בדוק חיבור הסוללה ליחידה האחורית">
 
 <meta property="og:url" content="http://localhost:1313/user-guide-he-copy/">
   <meta property="og:site_name" content="Product Guide">
-  <meta property="og:title" content="מדריך למשתמש (HE)">
-  <meta property="og:description" content="מדריך למשתמש (עברית)Link to headingזהו המדריך בעברית.
-כאן תוסיף שלבים, תמונות וסרטונים.
-שלב 1 – פעולה ראשונהLink to headingטקסט לדוגמה…
-מעבר לאנגליתLink to headingSwitch to English">
+  <meta property="og:title" content="מדריך הפעלה">
+  <meta property="og:description" content="Your browser does not support the video tag.מדריך הפעלה
+Switch to English שלב 1 – בדיקות מקדימות
+בדוק חיבור היחידה האחורית לרחפן
+בדוק חיבור הסוללה ליחידה האחורית">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
 
@@ -120,7 +110,136 @@
 
 
   <main class="wrapper">
+    <nav class="navigation dark-header">
+  <section class="container custom_header">
+    <style>
+  .custom_header {
+    margin: 0rem auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;  
+    position: relative;  
+  }
+  #menu-toggle{
+    position: absolute !important;
+  }
+  .navigation-title {
+    flex-shrink: 0;  
+}
+
+.menu-button {
+    flex-shrink: 0;  
+}
+.menu-button i {
+    color: #000 !important;  
+    transition: color 0.3s ease;
+}
+   
+  @media (max-width: 768px) {
+    .custom_header {
+       
+      align-items: flex-start; 
+      padding-top: 10px;  
+    }
+
+     
+    .navigation-list {
+      position: absolute;
+      top: 100%;  
+      left: 0;
+      width: 100%;
+      background: inherit;  
+      display: none;  
+      flex-direction: column;
+      z-index: 1;
+    }
+
+     
+    #menu-toggle:checked ~ .navigation-list {
+      display: flex !important;
+    }
+
+     
+    .menu-button, .navigation-title {
+      height: 60px;  
+      display: flex;
+      align-items: center;
+      z-index: 2;
+    }
+  }
+    </style>
     
+    
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle">
+      <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+    </label>
+
+      <ul class="navigation-list">
+        
+        
+        
+        <li class="navigation-item">
+          <a class="navigation-link "
+          href="/">
+                 Home
+                </a>
+              </li>
+          
+        <li class="navigation-item">
+          <a class="navigation-link "
+          href="/performance/">
+                 Performance
+                </a>
+              </li>
+          
+        <li class="navigation-item">
+          <a class="navigation-link "
+          href="/user-guide-en/">
+                 User Guide
+                </a>
+              </li>
+          
+        <li class="navigation-item">
+          <a class="navigation-link "
+          href="/installation-en/">
+                 Installation
+                </a>
+              </li>
+          
+        <li class="navigation-item">
+          <a class="navigation-link "
+          href="/specs/">
+                 Specs
+                </a>
+              </li>
+          
+        <li class="navigation-item">
+          <a class="navigation-link "
+          href="/contact/">
+                 Contact us
+                </a>
+              </li>
+          
+          
+          
+          
+              
+            </ul>
+            
+            
+            
+            <a class="navigation-title" href="http://localhost:1313/" style="display:flex; align-items:center; gap:12px;">
+        
+              
+              <img src="/images/logo3.png"
+                   alt="Logo"
+                   style="z-index: 2; height:60px; width:auto; border-radius:4px;">
+            </a>
+            
+          </section>
+        </nav>
 
 
     <div class="content">
@@ -130,37 +249,22 @@
     <header>
       <h1 class="title">
         <a class="title-link" href="http://localhost:1313/user-guide-he-copy/">
-          מדריך למשתמש (HE)
+          מדריך הפעלה
         </a>
       </h1>
     </header>
 
-    <h1 id="מדריך-למשתמש-עברית">
-  מדריך למשתמש (עברית)
-  <a class="heading-link" href="#%d7%9e%d7%93%d7%a8%d7%99%d7%9a-%d7%9c%d7%9e%d7%a9%d7%aa%d7%9e%d7%a9-%d7%a2%d7%91%d7%a8%d7%99%d7%aa">
-    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
-    <span class="sr-only">Link to heading</span>
-  </a>
-</h1>
-<p>זהו המדריך בעברית.</p>
-<p>כאן תוסיף שלבים, תמונות וסרטונים.</p>
-<hr>
-<h2 id="שלב-1--פעולה-ראשונה">
-  שלב 1 – פעולה ראשונה
-  <a class="heading-link" href="#%d7%a9%d7%9c%d7%91-1--%d7%a4%d7%a2%d7%95%d7%9c%d7%94-%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%94">
-    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
-    <span class="sr-only">Link to heading</span>
-  </a>
-</h2>
-<p>טקסט לדוגמה…</p>
-<hr>
-<h2 id="מעבר-לאנגלית">
-  מעבר לאנגלית
-  <a class="heading-link" href="#%d7%9e%d7%a2%d7%91%d7%a8-%d7%9c%d7%90%d7%a0%d7%92%d7%9c%d7%99%d7%aa">
-    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
-    <span class="sr-only">Link to heading</span>
-  </a>
-</h2>
+    <!-- prettier-ignore-start -->
+<div dir="rtl" style="font-size: 1.5rem; line-height: 1.1;">
+<div id="videoPlayer" style="margin-top:20px; display:flex; justify-content: center;;">
+  <video id="mainVideo" width="100%" controls style="
+    max-height: 600px;
+    max-width: 40%;">
+    <source id="videoSource" src="/videos/guide.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<p style="font-size: 2rem; font-weight: 700; margin-top: 30px;">מדריך הפעלה</p>
 <p><a href="/user-guide-en/" style="
 display:inline-block;
 padding:8px 16px;
@@ -169,7 +273,84 @@ background:#007bff;
 color:white;
 text-decoration:none;
 font-weight:600;
-"> Switch to English </a></p>
+">
+Switch to English
+</a></p>
+<hr/>
+<p style="font-weight:600; font-size:1.5rem;">שלב 1 – בדיקות מקדימות</p>
+<p>בדוק חיבור היחידה האחורית לרחפן</p>
+ <img
+      src="/images/rearcon2.jpg"
+      alt="Product Image"
+      style="max-width:40%; height: auto; border-radius: 12px; box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15)" />
+<p>בדוק חיבור הסוללה ליחידה האחורית</p>
+ <img
+      src="/images/btrccon.jpg"
+      alt="Product Image"
+      style="max-width:40%; height: auto; border-radius: 12px; box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15)" />
+<p>בדוק שהיחידה הקדמית יושבת היטב ואין חופשים</p>
+ <img
+      src="/images/frontunit.jpg"
+      alt="Product Image"
+      style="max-width:40%; height: auto; border-radius: 12px; box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15)" />
+<p>בדוק את חיבור הכבל השחור לתחתית הפנס הקדמי</p>
+ <img
+      src="/images/frontcable.jpg"
+      alt="Product Image"
+      style="max-width:40%; height: auto; border-radius: 12px; box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15)" />
+<p>בדוק את תריס כרטיס הזיכרון ברחפן</p>
+ <img
+      src="/images/sddoor1.jpg"
+      alt="Product Image"
+      style="max-width:40%; height: auto; border-radius: 12px; box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15)" />
+ <img
+      src="/images/sddoor2.jpg"
+      alt="Product Image"
+      style="max-width:40%; height: auto; border-radius: 12px; box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15)" />
+<ul>
+  <li>ודא בעדינות שהוא סגור עד הסוף והפרופלור יכול להסתובב בחופשיות</li>
+    <br>
+  <li>ודא שהכבל הגמיש יוצא בצורה ישרה מהתריס</li>
+</ul>
+<p>בדוק את חיבור כרטיס הזיכרון ליחידה האחורית  
+    <br>
+<br>שים לב שהקונקטור מחובר היטב כדי שלא יפגע מהפרופלור בזמן טיסה</p>
+ <img
+      src="/images/sdconnection.jpg"
+      alt="Product Image"
+      style="max-width:40%; height: auto; border-radius: 12px; box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15)" />
+<hr/>
+<p style="font-weight:600; font-size:1.5rem;">שלב 2 – הדלקה</p>
+<p>הפעל את הרחפן</p>
+<p>הפעל את השלט</p>
+<p>הפעל את המשקף</p>
+<p>המתן לסיום ההדלקה עד שמופיע שידור מהרחפן על המסך</p>
+<hr/>
+<p style="font-weight:600; font-size:1.5rem;">שלב 3 – הפעלה ובדיקת מערכת</p>
+<p>לחץ על כפתור הצילום בשלט — לאחר כ־5 שניות הפנסים יידלקו</p>
+ <img
+      src="/images/photobtn.jpg"
+      alt="Product Image"
+      style="max-width:40%; height: auto; border-radius: 12px; box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15)" />
+<p>בצע הדלקה וכיבוי פעמיים כדי לוודא שהמערכת פועלת כראוי</p>
+<p>- ניתן לכבות ולהדליק את הרחפן גם במהלך הטיסה  </p>
+- יש להמתין להדלקה מלאה לפני כיבוי — ולהיפך
+<br>
+<hr/>
+<p style="font-weight:600; font-size:1.5rem;">הערה חשובה</p>
+<p>הרחפן אמור להראות  "SD slow" זה המצב הרצוי: </p>
+ <img
+      src="/images/cdslowapp.png"
+      alt="Product Image"
+      style="max-width:70%; height: auto; border-radius: 12px; box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15)" />
+<p>אם זה לא מופיע , בצע הגדרת צילום על כרטיס זכרון כמו בתמונה למטה: </p>
+ <img
+      src="/images/sdmode.jpg"
+      alt="Product Image"
+      style="max-width:70%; height: auto; border-radius: 12px; box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15)" />
+<br/>
+</div>
+<!-- prettier-ignore-end -->
 
   </article>
 </section>
@@ -178,8 +359,8 @@ font-weight:600;
 
     </div>
 
-    <footer style="margin-top: 50px; padding: 20px; text-align: center; opacity: 0.6">
-  Contact us: <a href="mailto:support@yourcompany.com">support@yourcompany.com</a>
+    <footer style="margin-top: 10px; padding: 20px; text-align: center; opacity: 1">
+  For details and reservations: <a href="mailto:contact.ora001@gmail.com">contact.ora001@gmail.com</a>
 </footer>
 
   </main>
