@@ -15,21 +15,26 @@ title = "Product Guide"
   weight = 1
 
 [[menu.main]]
+  name = "Performance"
+  url = "/performance/"
+  weight = 2
+
+[[menu.main]]
   name = "User Guide"
   url = "/user-guide-en/"
-  weight = 1
+  weight = 3
 [[menu.main]]
   name = "Installation"
   url = "/Installation-en/"
-  weight = 2
+  weight = 4
 [[menu.main]]
   name = "Specs"
   url = "/specs/"
-  weight = 3
+  weight = 5
 [[menu.main]]
   name = "Contact us"
   url = "/Contact/"
-  weight = 4
+  weight = 6
 
 
 

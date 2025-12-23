@@ -4,15 +4,27 @@
   <url>
     <loc>http://localhost:1313/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-  </url><url>
     <loc>http://localhost:1313/contact/</loc>
   </url><url>
     <loc>http://localhost:1313/installation-en/</loc>
   </url><url>
-    <loc>http://localhost:1313/user-guide-en/</loc>
+    <loc>http://localhost:1313/installation-he/</loc>
+  </url><url>
+    <loc>http://localhost:1313/performance/</loc>
   </url><url>
     <loc>http://localhost:1313/specs/</loc>
+  </url><url>
+    <loc>http://localhost:1313/user-guide-en/</loc>
+  </url><url>
+    <loc>http://localhost:1313/user-guide-he/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/installation-en-copy/</loc>
+  </url><url>
+    <loc>http://localhost:1313/user-guide-en-copy/</loc>
+  </url><url>
+    <loc>http://localhost:1313/specs-copy/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url><url>
@@ -20,8 +32,8 @@
   </url><url>
     <loc>http://localhost:1313/videos/</loc>
   </url><url>
-    <loc>http://localhost:1313/user-guide-he/</loc>
+    <loc>http://localhost:1313/user-guide-he-copy/</loc>
   </url><url>
-    <loc>http://localhost:1313/installation-he/</loc>
+    <loc>http://localhost:1313/installation-he-copy/</loc>
   </url>
 </urlset>
