@@ -253,17 +253,14 @@ title = ""
         </ul>
       </div>
     </div>
-
   </div>
-
   <div class="step-card important-note">
     <div class="step-header" style="border-bottom-color: var(--accent);">Important Note</div>
     <div style="text-align: center;">
       <p style="font-size: 1.7rem;">The drone should show <strong>"SD Slow"</strong>, this is the desired state:</p>
-      <img src="/images/cdslowapp.png" alt="SD Slow Warning" />
+      <img src="/images/cdslowapp.PNG" alt="SD Slow Warning" />
       <p style="font-size: 1.7rem; margin-top: 30px;">If it does not appear, set up a photo on the memory card as shown below:</p>
       <img src="/images/sdmode.jpg" alt="SD Mode Setup" />
     </div>
   </div>
-
 </div>

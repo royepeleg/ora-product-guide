@@ -124,25 +124,25 @@ title = ""
           <td class="ora-value highlight-cell">500 lm</td>
           <td class="standard-value highlight-cell">200 lm</td>
         </tr>
-        <tr>
+        <!-- <tr>
           <td class="feature-name">Working Power</td>
           <td class="ora-value">5W</td>
           <td class="standard-value">—</td>
-        </tr>
+        </tr> -->
         <tr>
           <td class="feature-name">Energy Source</td>
-          <td class="ora-value highlight-cell">Drone Battery</td>
-          <td class="standard-value highlight-cell">Dedicated Internal Battery</td>
+          <td class="ora-value">Drone Battery</td>
+          <td class="standard-value">Dedicated Internal Battery</td>
         </tr>
         <tr>
           <td class="feature-name">Charging</td>
-          <td class="ora-value">No charging required</td>
-          <td class="standard-value">Manual charge per unit</td>
+          <td class="ora-value highlight-cell">No charging required</td>
+          <td class="standard-value highlight-cell">Manual charge per unit</td>
         </tr>
         <tr>
           <td class="feature-name">Operation</td>
-          <td class="ora-value highlight-cell">Remote (Controller)</td>
-          <td class="standard-value highlight-cell">Manual Switch</td>
+          <td class="ora-value">Remote (Controller)</td>
+          <td class="standard-value">Manual Switch</td>
         </tr>
       </tbody>
     </table>

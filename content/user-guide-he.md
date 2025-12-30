@@ -265,7 +265,7 @@ title = ""
     <div class="step-header" style="border-bottom-color: var(--accent);">הערה חשובה</div>
     <div style="text-align: center;">
       <p style="font-size: 1.7rem;">הרחפן אמור להראות <strong>"SD Slow"</strong>, זהו המצב הרצוי:</p>
-      <img src="/images/cdslowapp.png" alt="אזהרת SD Slow" />
+      <img src="/images/cdslowapp.PNG" alt="אזהרת SD Slow" />
       <p style="font-size: 1.7rem; margin-top: 30px;">אם זה לא מופיע, בצע הגדרת צילום על כרטיס הזיכרון כפי שמוצג בתמונה:</p>
       <img src="/images/sdmode.jpg" alt="הגדרת מצב SD" />
     </div>
