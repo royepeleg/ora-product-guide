@@ -273,9 +273,8 @@ title = ""
     </video>
         </div>
 
-  <div class="stats-section">
+  <!-- <div class="stats-section">
     <h2 class="section-title">Flight Time Impact</h2>
-     <!-- <div class="video-label" style="color: var(--accent);">Flight Time & Battery Efficiency Comparison</div> -->
     <div class="chart-container">
       <div class="bar-group">
         <div class="bar-label">
@@ -305,8 +304,8 @@ title = ""
         * Flight times are estimated based on fly time with DJI AVATA 1 90% battary.
       </p>
     </div>
-  </div>
-  <div class="specs-grid">
+  </div> -->
+  <div class="specs-grid" style="margin-top: 40px;">
     <div class="spec-box">
       <h3>Total Weight</h3>
       <div style="display: flex; justify-content: center; align-items: baseline; gap: 20px; margin-top: 20px;">
@@ -367,7 +366,7 @@ title = ""
     </div>
 
   <div class="video-comparison">
-        <div class="video-label" style="color: #888;">Battery Performance Comparison</div>
+        <div class="video-label" style="color: #888;">Battery Performance Comparison Video</div>
             <div class="video-wrapper">
            <video id="mainVideo" controls>
       <source id="videoSource" src="/videos/coppower.mp4" type="video/mp4">
