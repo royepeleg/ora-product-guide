@@ -138,10 +138,10 @@ title = ""
       <p>For questions, technical support, or reservations, please reach out to us.</p>
       <p dir="rtl">לשאלות, תמיכה טכנית והזמנות - אנא צרו קשר איתנו.</p>
     </div>
-    <!-- <a href="YOUR_GOOGLE_FORM_URL_HERE" target="_blank" class="form-btn">
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeRxjmRBXjY3JMFaZe7ZBnfqPg4ZxwmkRkCfh0iW69UuT50xg/viewform?usp=dialog" target="_blank" class="form-btn">
       📩 Open Support Form / פתח טופס
     </a>
-    <div class="or-divider">OR / או</div> -->
+    <div class="or-divider">OR / או</div>
     <div class="contact-card">
       <div class="contact-item">
         <label>Email / אימייל</label>
